@@ -7,10 +7,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><span class="hour">00</span>:<span class="mins">00</span>:<span class="sec">00</span></h1>
-    <button type="button" onclick="start ()">START WATCH</button>
-    <button type="button" onclick="pause ()">PAUSE WATCH</button>
-    <button type="button" onclick="reset ()">RESTARTS</button>
+    <div class="parent">
+        <div class="content">
+            <div id="top-head">
+                <h1>STOP-WATCH</h1>
+            </div>
+            <div id="head">
+                <h1><span class="hour">00</span>:<span class="mins">00</span>:<span class="sec">00</span></h1>
+            </div>
+
+            <div class="img">
+                <img src="https://media.tenor.com/iu1ve231WM0AAAAj/timer-clock.gif" alt="">
+            </div>
+
+            <div class="buttons">
+                <button type="button" onclick="start ()">START WATCH</button>
+                <button type="button" onclick="pause ()">PAUSE WATCH</button>
+                <button type="button" onclick="reset ()">RESTARTS</button>
+            </div>
+
+
+        </div>
+    </div>
+    
 
     <script src="app.js"></script>
 </body>
