@@ -49,4 +49,3 @@ function pause () {
 
 
 
-console.log(pause);
